@@ -1,4 +1,23 @@
+html,
+body,
+.view
+{
+	height: 100%;
+}
+
 .navbar
 {
-	background-color: #3b295a;
+	/*background-color: #3b295a;*/
+}
+
+.carousel,
+.carousel-item,
+.active
+{
+	height: 100%;
+}
+
+.carousel-inner
+{
+	height: 100%;
 }
