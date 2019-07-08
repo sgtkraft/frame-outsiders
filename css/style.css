@@ -12,6 +12,7 @@ body,
 
 .carousel,
 .carousel-item,
+.carousel-img,
 .active
 {
 	height: 100%;
@@ -20,4 +21,10 @@ body,
 .carousel-inner
 {
 	height: 100%;
+}
+
+.carousel-img
+{
+	background-repeat: no-repeat;
+	background-size: cover;
 }

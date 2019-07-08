@@ -18,7 +18,7 @@
 
 <body>
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top transparent white-text">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top transparent">
     <div class="container">
 
       <a class="navbar-brand waves-effect waves-light" href="#">Frame Outsiders</a>
@@ -30,6 +30,10 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="#">ダウンロード</a>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link waves-effect waves-light" href="#">ストーリー</a>
@@ -53,20 +57,47 @@
   </nav>
 
   <!-- Carousel Wrapper -->
-  <div class="carousel slide carousel-fade" id="carousel-top" data-ride="carousel" data-interval="false">
+  <div class="carousel slide carousel-fade" id="carousel-top" data-ride="carousel">
 
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li class="active" data-target="#carousel-top" data-slide-to="0"></li>
+      <li class="" data-target="#carousel-top" data-slide-to="1"></li>
+      <li class="" data-target="#carousel-top" data-slide-to="2"></li>
+      <li class="" data-target="#carousel-top" data-slide-to="3"></li>
     </ol>
 
     <!-- Slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item view hm-black-light active" style="background-image: url('img/back-labo.jpg');
-      background-repeat: no-repeat; background-size: cover">
-        
+      <div class="carousel-item view hm-black-light active">
+        <img class="carousel-img" src="img/labo/bg-labo01.jpg">
+        <div class="mask pattern-7"></div>
+      </div>
+
+      <div class="carousel-item view hm-black-light">
+        <img class="carousel-img" src="img/labo/bg-labo02.jpg">
+        <div class="mask pattern-7"></div>
+      </div>
+
+      <div class="carousel-item view hm-black-light">
+        <img class="carousel-img" src="img/labo/bg-labo03.jpg">
+        <div class="mask pattern-7"></div>
+      </div>
+
+      <div class="carousel-item view hm-black-light">
+        <img class="carousel-img" src="img/labo/bg-labo04.jpg">
+        <div class="mask pattern-7"></div>
       </div>
     </div>
+
+    <a class="carousel-control-prev" href="#carousel-top" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-top" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
     
   </div>
 
