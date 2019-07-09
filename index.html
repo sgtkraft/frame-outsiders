@@ -18,7 +18,7 @@
 
 <body>
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top transparent">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar transparent">
     <div class="container">
 
       <a class="navbar-brand waves-effect waves-light" href="#">Frame Outsiders</a>
@@ -32,23 +32,23 @@
         <ul class="navbar-nav mr-auto">
 
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="#">ダウンロード</a>
+            <a class="nav-link waves-effect waves-light" align="right" href="download/index.html">ダウンロード</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="#">ストーリー</a>
+            <a class="nav-link waves-effect waves-light" align="right" href="#">ストーリー</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="#">システム</a>
+            <a class="nav-link waves-effect waves-light" align="right" href="#">システム</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="#">キャラクター</a>
+            <a class="nav-link waves-effect waves-light" align="right" href="#">キャラクター</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="#">サークル</a>
+            <a class="nav-link waves-effect waves-light" align="right" href="#">サークル</a>
           </li>
 
         </ul>
@@ -57,7 +57,7 @@
   </nav>
 
   <!-- Carousel Wrapper -->
-  <div class="carousel slide carousel-fade" id="carousel-top" data-ride="carousel">
+  <div class="carousel slide carousel-fade black" id="carousel-top" data-ride="carousel">
 
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -101,6 +101,12 @@
     
   </div>
 
+  <footer class="page-footer center-on-small-only">
+    <div class="footer-copyright">
+      <div class="container-fluid" align="right" >© 2019 Copyright: Project Tempo</div>
+    </div>
+  </footer>
+
   <!-- <div style="height: 100vh">
     <div class="flex-center flex-column">
 
@@ -116,6 +122,15 @@
     </div>
   </div> -->
 
+  <!-- Loading -->
+  <!-- 
+  <div id="loadingBg"></div>
+  <div id="loading">
+      <div id="percent"><span id="percent-text"></span>％</div>
+      <div id="gauge"></div>
+  </div>
+-->
+
   <!-- SCRIPTS -->
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -125,6 +140,8 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom JavaScript -->
+  <!-- <script type="text/javascript" src="js/loading.js"></script> -->
 </body>
 
 </html>
