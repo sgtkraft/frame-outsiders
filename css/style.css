@@ -29,14 +29,34 @@
     background: #000000;
 }
 
+
+/* 共通 */
 html,
 body,
 .view
 {
 	height: 100%;
-	background-color: black;
 }
 
+main {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+footer.page-footer
+{
+	/*margin-top: -1px;*/
+}
+
+.color-primary {
+	background-color: #00838f !important;
+}
+
+.color-primary-text {
+	color: #00838f !important;
+}
+
+/* ナビゲーションバー */
 .navbar {
 	background-color: transparent;
 }
@@ -51,6 +71,7 @@ body,
  	background-color: #1C2331;
 }
 
+/* カルーセル */
 .carousel,
 .carousel-item,
 .carousel-img,
@@ -68,10 +89,4 @@ body,
 {
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-footer.page-footer
-{
-	background-color: #1C2331;
-	margin-top: -1px;
 }
