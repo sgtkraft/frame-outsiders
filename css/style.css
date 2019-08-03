@@ -39,7 +39,7 @@ body,
 }
 
 main {
-    padding-top: 6rem;
+    padding-top: 8rem;
     padding-bottom: 2rem;
 }
 
@@ -48,11 +48,21 @@ footer.page-footer
 	/*margin-top: -1px;*/
 }
 
-.color-primary {
+.color-background
+{
+	/* MDB4: grey darken-4 */
+	background-color: #212121 !important;
+}
+
+.color-primary
+{
+	/* MDB4: cyan darken-3 */
 	background-color: #00838f !important;
 }
 
-.color-primary-text {
+.color-primary-text
+{
+	/* MDB4: cyan darken-3 */
 	color: #00838f !important;
 }
 
