@@ -29,7 +29,6 @@
     background: #000000;
 }
 
-
 /* 共通 */
 html,
 body,
@@ -79,6 +78,11 @@ footer.page-footer
 
 .top-nav-collapse {
  	background-color: #1C2331;
+}
+
+.navbar-img
+{
+	width: 160px;
 }
 
 /* カルーセル */
