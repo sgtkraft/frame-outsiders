@@ -37,9 +37,15 @@ body,
 	height: 100%;
 }
 
-main {
+main
+{
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /*padding-bottom: 2rem;*/
+}
+
+h1
+{
+	margin-bottom: 2rem;
 }
 
 footer.page-footer
@@ -47,6 +53,7 @@ footer.page-footer
 	/*margin-top: -1px;*/
 }
 
+/* 色指定 */
 .color-background
 {
 	/* MDB4: grey darken-4 */
@@ -59,10 +66,28 @@ footer.page-footer
 	background-color: #00838f !important;
 }
 
+.color-card
+{
+	/* MDB4: grey darken-3 */
+	background-color: #424242 !important;
+}
+
 .color-primary-text
 {
 	/* MDB4: cyan darken-3 */
 	color: #00838f !important;
+}
+
+.color-title-text
+{
+	/* MDB4: grey lighten-4 */
+	color: #eeeeee !important;
+}
+
+.color-main-text
+{
+	/* MDB4: grey */
+	color: #9e9e9e !important;
 }
 
 /* ナビゲーションバー */
@@ -103,4 +128,10 @@ footer.page-footer
 {
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/* カード */
+.card
+{
+	margin-bottom: 2rem;
 }
