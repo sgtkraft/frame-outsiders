@@ -39,18 +39,25 @@ body,
 
 main
 {
+	height: 100%;
     padding-top: 8rem;
     /*padding-bottom: 2rem;*/
 }
 
-h1
+h1,
+h5
 {
 	margin-bottom: 2rem;
 }
 
+p
+{
+	margin-bottom: 1rem;
+}
+
 footer.page-footer
 {
-	/*margin-top: -1px;*/
+	height: 3rem;
 }
 
 /* 色指定 */
@@ -99,10 +106,13 @@ footer.page-footer
 	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	transition: background .5s ease-in-out, padding .5s ease-in-out;
+	padding: 0 !important;
 }
 
 .top-nav-collapse {
- 	background-color: #1C2331;
+	/* MDB4: cyan darken-3 */
+	background-color: #00838f !important;
+ 	padding: 0 !important;
 }
 
 .navbar-img
@@ -130,8 +140,18 @@ footer.page-footer
 	background-size: cover;
 }
 
+.carousel-indicators
+{
+	margin-bottom: 4rem;
+}
+
 /* カード */
 .card
 {
 	margin-bottom: 2rem;
+}
+
+.card-title
+{
+	margin-bottom: 1rem;
 }
