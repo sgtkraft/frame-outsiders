@@ -59,6 +59,15 @@ h5
 	margin-bottom: 2rem;
 }
 
+h3.pc
+{
+	font-size: 1.75rem;
+}
+h3.sp
+{
+	font-size: 1.5rem;
+}
+
 p
 {
 	margin-bottom: 1rem;
