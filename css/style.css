@@ -29,6 +29,15 @@
     background: #000000;
 }
 
+/* パソコンで見たときは"pc"のclassがついた要素が表示される */
+.pc { display: flex !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは"sp"のclassがついた要素が表示される */
+@media only screen and (max-width: 750px) {
+.pc { display: none !important; }
+.sp { display: flex !important; }
+}
+
 /* 共通 */
 html,
 body,
@@ -39,9 +48,9 @@ body,
 
 main
 {
-	height: 100%;
+	min-height: 100%;
     padding-top: 8rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 h1,
