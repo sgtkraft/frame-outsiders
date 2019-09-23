@@ -33,7 +33,7 @@
 .pc { display: flex !important; }
 .sp { display: none !important; }
 /* スマートフォンで見たときは"sp"のclassがついた要素が表示される */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
 .pc { display: none !important; }
 .sp { display: flex !important; }
 }
@@ -163,6 +163,13 @@ footer.page-footer
 	margin-bottom: 4rem;
 }
 
+.carousel-caption
+{
+	height: 100%;
+	right: 0;
+	left: 0;
+}
+
 /* カード */
 .card
 {
@@ -172,4 +179,11 @@ footer.page-footer
 .card-title
 {
 	margin-bottom: 1rem;
+}
+
+/* フッター */
+.footer-copyright
+{
+	margin-top: 1.5rem;
+	height: 1.5rem;
 }
