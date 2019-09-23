@@ -33,7 +33,7 @@
 .pc { display: flex !important; }
 .sp { display: none !important; }
 /* スマートフォンで見たときは"sp"のclassがついた要素が表示される */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 768px) {
 .pc { display: none !important; }
 .sp { display: flex !important; }
 }
@@ -48,9 +48,13 @@ body,
 
 main
 {
-	min-height: 100%;
+	/*min-height: 100%;*/
     padding-top: 8rem;
-    padding-bottom: 5rem;
+    /*padding-bottom: 5rem;*/
+}
+main.page-bottom
+{
+	min-height: 100%;
 }
 
 h1,
@@ -83,6 +87,7 @@ footer.page-footer
 {
 	/* MDB4: grey darken-4 */
 	background-color: #212121 !important;
+	position: relative;
 }
 
 .color-primary
@@ -138,6 +143,17 @@ footer.page-footer
 	width: 160px;
 }
 
+.nav-pills
+.nav-link
+{
+	border-radius: 0;
+}
+.nav-pills
+.nav-link.active
+{
+	background-color: rgba(255,255,255,.2);
+}
+
 /* カルーセル */
 .carousel,
 .carousel-item,
@@ -163,6 +179,13 @@ footer.page-footer
 	margin-bottom: 4rem;
 }
 
+.carousel-caption
+{
+	height: 100%;
+	right: 0;
+	left: 0;
+}
+
 /* カード */
 .card
 {
@@ -172,4 +195,11 @@ footer.page-footer
 .card-title
 {
 	margin-bottom: 1rem;
+}
+
+/* フッター */
+.footer-copyright
+{
+	margin-top: 1.5rem;
+	height: 1.5rem;
 }
