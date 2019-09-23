@@ -16,10 +16,10 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="color-background">
+<body class="color-background" data-spy="scroll" data-target="#navbar-top" data-offset="0">
   <!-- NavBar -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar transparent">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar transparent" id="navbar-top">
       <div class="container">
 
         <a class="navbar-brand waves-effect waves-light" href="#">
@@ -32,37 +32,37 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item">
-              <a class="nav-link waves-effect waves-light" align="right" href="download/index.html">ダウンロード</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link waves-effect waves-light" align="right" href="story/index.html">ストーリー</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link waves-effect waves-light" align="right" href="system/index.html">システム</a>
-            </li>
+          <ul class="navbar-nav nav-pills ml-auto">
 
             <!-- <li class="nav-item">
-              <a class="nav-link waves-effect waves-light" align="right" href="character/index.html">キャラクター</a>
+              <a class="nav-link waves-effect waves-light" align="right" href="#navbar-top-download">お知らせ</a>
             </li> -->
 
             <li class="nav-item">
-              <a class="nav-link waves-effect waves-light" align="right" href="credit/index.html">サークル</a>
+              <a class="nav-link waves-effect waves-light" align="right" href="#navbar-top-download">ダウンロード</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" align="right" href="#navbar-top-story">ストーリー</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" align="right" href="#navbar-top-system">システム</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" align="right" href="#navbar-top-team">サークル</a>
             </li>
 
           </ul>
         </div>
+
       </div>
     </nav>
   </header>
 
   <!-- Carousel Wrapper -->
   <div class="carousel slide carousel-fade" id="carousel-top" data-ride="carousel">
-
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li class="active" data-target="#carousel-top" data-slide-to="0"></li>
@@ -73,41 +73,255 @@
 
     <!-- Slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item view hm-black-light active">
-        <img class="carousel-img" src="img/labo/bg-labo01.jpg">
-        <div class="mask pattern-7"></div>
+      <div class="carousel-caption animated fadeIn slow">
+        <h3 class="pc flex-center color-title-text">
+          『アタシが部外者だとしても、想いは世界を欺ける。』
+        </h3>
+        <h3 class="sp flex-center color-title-text">
+          『アタシが部外者だとしても、<br><br>想いは世界を欺ける。』
+        </h3>
       </div>
 
-      <div class="carousel-item view hm-black-light">
-        <img class="carousel-img" src="img/labo/bg-labo02.jpg">
-        <div class="mask pattern-7"></div>
+      <div class="carousel-item active">
+        <div class="view hm-black-light">
+          <img class="carousel-img" src="img/labo/bg-labo01.jpg">
+          <div class="mask pattern-7"></div>
+        </div>
       </div>
 
-      <div class="carousel-item view hm-black-light">
-        <img class="carousel-img" src="img/labo/bg-labo03.jpg">
-        <div class="mask pattern-7"></div>
+      <div class="carousel-item">
+        <div class="view hm-black-light">
+          <img class="carousel-img" src="img/labo/bg-labo02.jpg">
+          <div class="mask pattern-7"></div>
+        </div>
       </div>
 
-      <div class="carousel-item view hm-black-light">
-        <img class="carousel-img" src="img/labo/bg-labo04.jpg">
-        <div class="mask pattern-7"></div>
+      <div class="carousel-item">
+        <div class="view hm-black-light">
+          <img class="carousel-img" src="img/labo/bg-labo03.jpg">
+          <div class="mask pattern-7"></div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="view hm-black-light">
+          <img class="carousel-img" src="img/labo/bg-labo04.jpg">
+          <div class="mask pattern-7"></div>
+        </div>
       </div>
     </div>
 
-    <a class="carousel-control-prev" href="#carousel-top" role="button" data-slide="prev">
+    <!-- <a class="carousel-control-prev" href="#carousel-top" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carousel-top" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-    </a>
+    </a> -->
     
   </div>
 
-  <footer class="page-footer center-on-small-only fixed-bottom color-primary">
-    <div class="footer-copyright">
-      <div class="container-fluid" align="right">© 2019 Copyright: Kushizushi</div>
+  <main id="navbar-top-download">
+    <div class="container-fluid">
+      <h1 class="flex-center color-primary-text">ダウンロード</h1>
+
+      <div class="row">
+
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <h4 class="card-title flex-center color-title-text">for PC</h4>
+              <p class="card-text flex-center color-main-text">鋭意開発中...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <h4 class="card-title flex-center color-title-text">for Smartphone</h4>
+              <p class="card-text flex-center color-main-text">鋭意開発中...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+
+      </div>
+    </div>
+  </main>
+
+  <main id="navbar-top-story">
+    <div class="container-fluid">
+      <h1 class="flex-center color-primary-text">ストーリー</h1>
+
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <h4 class="card-title flex-center color-title-text">イントロダクション</h4>
+
+              <br>
+              <p class="pc card-text flex-center color-main-text">
+                施設に幽閉され孤独な生活を送っていた少女・縁結さざれ。
+              </p>
+              <p class="pc card-text flex-center color-main-text">
+                彼女を助け出したのは、名のしれないスパイの女性だった。
+              </p>
+
+              <p class="sp card-text flex-center color-main-text">
+                施設に幽閉され孤独な生活を送っていた
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                少女・縁結さざれ。彼女を助け出したのは、
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                名のしれないスパイの女性だった。
+              </p>
+
+              <br>
+              <p class="pc card-text flex-center color-main-text">
+                外の世界を知り、身を隠しながらも平穏な生活を送っていたさざれはある日、
+              </p>
+              <p class="pc card-text flex-center color-main-text">
+                超能力を悪用する組織「サイクル」の企みを知ってしまう。
+              </p>
+
+              <p class="sp card-text flex-center color-main-text">
+                外の世界を知り、身を隠しながらも
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                平穏な生活を送っていたさざれはある日、
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                超能力を悪用する組織「サイクル」の
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                企みを知ってしまう。
+              </p>
+
+              <br>
+              <p class="pc card-text flex-center color-main-text">
+                とある郵便物をきっかけに自分から進んで生きる決心をしたさざれは
+              </p>
+              <p class="pc card-text flex-center color-main-text">
+                思念を読み取る超能力「サイコメトリー」と
+              </p>
+              <p class="pc card-text flex-center color-main-text">
+                存在を曖昧にする装置「サイキック・コンバータ」を駆使して
+              </p>
+              <p class="pc card-text flex-center color-main-text">
+                強い思念の宿る品々の奪取に挑むのだった――。
+              </p>
+
+              <p class="sp card-text flex-center color-main-text">
+                とある郵便物をきっかけに
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                自分から進んで生きる決心をしたさざれは
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                思念を読み取る超能力「サイコメトリー」と
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                存在を曖昧にする装置
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                「サイキック・コンバータ」を駆使して
+              </p>
+              <p class="sp card-text flex-center color-main-text">
+                強い思念の宿る品々の奪取に挑むのだった――。
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </main>
+
+  <main id="navbar-top-system">
+    <div class="container-fluid">
+      <h1 class="flex-center color-primary-text">システム</h1>
+
+      <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <p class="card-text flex-center color-main-text">掲載準備中...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
+    </div>
+  </main>
+
+  <main id="navbar-top-team" class="page-bottom">
+    <div class="container-fluid">
+      <h1 class="flex-center color-primary-text">サークル</h1>
+
+      <!-- <h5 class="flex-center color-main-text">Frame Outsidersは同人サークル「串寿司(くしずし)」が開発しています</h5> -->
+      <h5 class="pc flex-center color-main-text" align="center">
+        Frame Outsidersは同人サークル「串寿司(くしずし)」が開発しています
+      </h5>
+      <h5 class="sp flex-center color-main-text" align="center">
+        Frame Outsidersは同人サークル<br>「串寿司(くしずし)」が開発しています
+      </h5>
+
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <p class="card-text flex-center color-main-text">プログラム / シナリオ / 3Dモデル</p>
+              <h4 class="flex-center color-title-text">つじは</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <p class="card-text flex-center color-main-text">3Dモデル / エネミーデザイン</p>
+              <h4 class="flex-center color-title-text">じーこ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <p class="card-text flex-center color-main-text">サウンド / Webデザイン / パッケージデザイン</p>
+              <h4 class="flex-center color-title-text">すがたく</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card fadeIn color-card">
+            <div class="card-body">
+              <p class="card-text flex-center color-main-text">メインキャラクターデザイン / ロゴデザイン</p>
+              <h4 class="flex-center color-title-text">カワズミ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="page-footer fixed-bottom color-primary">
+    <div class="container"></div>
+    <div class="footer-copyright" align="right">
+      <div class="container-fluid">© 2019 Copyright: Kushizushi</div>
     </div>
   </footer>
 
