@@ -48,13 +48,12 @@ body,
 
 main
 {
-	/*min-height: 100%;*/
     padding-top: 8rem;
-    /*padding-bottom: 5rem;*/
 }
 main.page-bottom
 {
 	min-height: 100%;
+	padding-bottom: 5rem;
 }
 
 h1,
