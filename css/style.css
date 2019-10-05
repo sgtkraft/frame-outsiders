@@ -95,20 +95,6 @@ footer.page-footer
 	background-color: #00838f !important;
 }
 
-.color-primary-btn
-{
-	/* MDB4: cyan darken-3 */
-	background-color: #00838f !important;
-	/* MDB4: grey lighten-4 */
-	color: #eeeeee !important;
-}
-
-.color-card
-{
-	/* MDB4: grey darken-3 */
-	background-color: #424242 !important;
-}
-
 .color-primary-text
 {
 	/* MDB4: cyan darken-3 */
@@ -196,19 +182,27 @@ footer.page-footer
 /* カード */
 .card
 {
+	background-color: #424242 !important;	/* MDB4: grey darken-3 */
 	margin-bottom: 2rem;
 }
 
 .card-title
 {
-	color: #eeeeee !important;	/* MDB4: grey lighten-4 */
+	color: #eeeeee !important; 				/* MDB4: grey lighten-4 */
 	line-height: 2.5rem;
 	margin-bottom: .75rem;
 }
 
+.card-name
+{
+	color: #eeeeee !important; 				/* MDB4: grey lighten-4 */
+	line-height: 2.5rem;
+	margin-bottom: 0;
+}
+
 .card-text
 {
-	color: #9e9e9e !important;	/* MDB4: grey */
+	color: #9e9e9e !important;				/* MDB4: grey */
 	line-height: 2rem;
 }
 
@@ -241,6 +235,29 @@ footer.page-footer
 .list-text
 {
 	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
+}
+
+/* ボタン */
+.btn-primary
+{
+	/* MDB4: cyan darken-3 */
+	background-color: #00838f !important;
+	/* MDB4: grey lighten-4 */
+	color: #eeeeee !important;
+}
+
+.btn-twitter
+{
+	/*background-color: #55acee !important;*/
+	/* MDB4: grey lighten-4 */
+	/*color: #eeeeee !important;*/
+	border-radius: 50%;
+	padding: 0;
+}
+
+.btn-img
+{
+	height: 1.5rem;
 }
 
 /* フッター */
