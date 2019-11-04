@@ -84,33 +84,28 @@ footer.page-footer
 /* 色指定 */
 .color-background
 {
-	/* MDB4: grey darken-4 */
-	background-color: #212121 !important;
+	background-color: #212121 !important;	/* MDB4: grey darken-4 */
 	position: relative;
 }
 
 .color-primary
 {
-	/* MDB4: cyan darken-3 */
-	background-color: #00838f !important;
+	background-color: #439291 !important;
 }
 
 .color-primary-text
 {
-	/* MDB4: cyan darken-3 */
-	color: #00838f !important;
+	color: #439291 !important;
 }
 
 .color-title-text
 {
-	/* MDB4: grey lighten-4 */
-	color: #eeeeee !important;
+	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
 }
 
 .color-main-text
 {
-	/* MDB4: grey */
-	color: #9e9e9e !important;
+	color: #9e9e9e !important;				/* MDB4: grey */
 }
 
 /* ナビゲーションバー */
@@ -126,8 +121,7 @@ footer.page-footer
 }
 
 .top-nav-collapse {
-	/* MDB4: cyan darken-3 */
-	background-color: #00838f !important;
+	background-color: #439291 !important;
  	padding: 0 !important;
 }
 
@@ -213,8 +207,8 @@ footer.page-footer
 }
 .list-group-item.active
 {
-	background-color: #00838f !important;	/* MDB4: cyan darken-3 */
-	border-color: #00838f !important;		/* MDB4: cyan darken-3 */
+	background-color: #439291 !important;
+	border-color: #439291 !important;
 }
 
 .list-title
@@ -240,10 +234,8 @@ footer.page-footer
 /* ボタン */
 .btn-primary
 {
-	/* MDB4: cyan darken-3 */
-	background-color: #00838f !important;
-	/* MDB4: grey lighten-4 */
-	color: #eeeeee !important;
+	background-color: #439291 !important;
+	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
 }
 
 .btn-twitter
