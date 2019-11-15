@@ -235,6 +235,7 @@ footer.page-footer
 .btn-primary
 {
 	background-color: #439291 !important;
+	border-color: #439291 !important;
 	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
 }
 
