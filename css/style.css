@@ -109,18 +109,21 @@ footer.page-footer
 }
 
 /* ナビゲーションバー */
-.navbar {
+.navbar
+{
 	background-color: transparent;
 }
 
-.scrolling-navbar {
+.scrolling-navbar
+{
 	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
 	transition: background .5s ease-in-out, padding .5s ease-in-out;
 	padding: 0 !important;
 }
 
-.top-nav-collapse {
+.top-nav-collapse
+{
 	background-color: #439291 !important;
  	padding: 0 !important;
 }
@@ -269,6 +272,13 @@ footer.page-footer
 	left: 0px;
 	right: 0px;
 	bottom: 0px;*/
+}
+
+.fa,
+.far,
+.fab
+{
+	font-weight: 900;
 }
 
 /* フッター */
