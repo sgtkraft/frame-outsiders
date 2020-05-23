@@ -253,24 +253,6 @@ footer.page-footer
 	height: 1.5rem;
 }
 
-/* フレーム */
-.frame
-{
-	/*overflow:hidden;
-	overflow-x:hidden;
-	overflow-y:hidden;*/
-
-	height: 190px;
-	width: 100%;
-
-	/*position:relative;*/
-
-	/*top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;*/
-}
-
 /* フッター */
 .footer-copyright
 {
