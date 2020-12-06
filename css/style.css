@@ -100,7 +100,7 @@ footer.page-footer
 
 .color-title-text
 {
-	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
+	color: #eeeeee !important;				/* MDB4: grey lighten-3 */
 }
 
 .color-main-text
@@ -185,14 +185,14 @@ footer.page-footer
 
 .card-title
 {
-	color: #eeeeee !important; 				/* MDB4: grey lighten-4 */
+	color: #eeeeee !important; 				/* MDB4: grey lighten-3 */
 	line-height: 2.5rem;
 	margin-bottom: .75rem;
 }
 
 .card-name
 {
-	color: #eeeeee !important; 				/* MDB4: grey lighten-4 */
+	color: #eeeeee !important; 				/* MDB4: grey lighten-3 */
 	line-height: 2.5rem;
 	margin-bottom: 0;
 }
@@ -216,7 +216,7 @@ footer.page-footer
 
 .list-title
 {
-	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
+	color: #eeeeee !important;				/* MDB4: grey lighten-3 */
 	line-height: 2.5rem;
 	margin-bottom: 0;
 }
@@ -231,7 +231,7 @@ footer.page-footer
 .list-group-item.active
 .list-text
 {
-	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
+	color: #eeeeee !important;				/* MDB4: grey lighten-3 */
 }
 
 /* ボタン */
@@ -239,7 +239,14 @@ footer.page-footer
 {
 	background-color: #439291 !important;
 	border-color: #439291 !important;
-	color: #eeeeee !important;				/* MDB4: grey lighten-4 */
+	color: #eeeeee !important;				/* MDB4: grey lighten-3 */
+}
+
+.btn-secondary
+{
+	background-color: #757575 !important;	/* MDB4: grey darken-1 */
+	border-color: #757575 !important;		/* MDB4: grey darken-1 */
+	color: #eeeeee !important;				/* MDB4: grey lighten-3 */
 }
 
 .btn-twitter
