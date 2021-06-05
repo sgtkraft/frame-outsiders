@@ -114,6 +114,24 @@ footer.page-footer
 	background-color: transparent;
 }
 
+.navbar
+.dropdown-menu
+{
+	border-radius: 0;
+}
+
+@media (max-width: 767px) and (min-width: 400px), (max-width: 850px) and (min-width: 800px)
+{
+	.navbar.fixed-top
+	.navbar-collapse,
+	.navbar.sticky-top
+	.navbar-collapse
+	{
+		overflow-x: visible !important;
+		overflow-y: visible !important;
+	}
+}
+
 .scrolling-navbar
 {
 	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -142,6 +160,29 @@ footer.page-footer
 .nav-link.active
 {
 	background-color: rgba(255,255,255,.2);
+}
+
+.nav-pills
+.nav-link.active,
+.nav-pills .show>.nav-link
+{
+	background-color: transparent;
+}
+
+.dropdown-item.active,
+.dropdown-item:active
+{
+	color: #fff !important;
+	text-decoration: none;
+	background-color: #439291;
+}
+
+.dropdown-item.disabled,
+.dropdown-item:disabled
+{
+	color: #9e9e9e !important;
+	pointer-events: none;
+	background-color: transparent;
 }
 
 /* カルーセル */
